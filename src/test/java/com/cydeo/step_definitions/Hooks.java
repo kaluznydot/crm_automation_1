@@ -3,10 +3,17 @@ package com.cydeo.step_definitions;
     In the class we will be able to pass pre- & post- conditions to each scenario and each step
      */
 
+import com.cydeo.pages.SearchPage;
+import com.cydeo.runners.CukesRunner;
 import com.cydeo.utilities.Driver;
 import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Map;
 
 public class Hooks
 {

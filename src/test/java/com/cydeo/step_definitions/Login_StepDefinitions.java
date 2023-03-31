@@ -55,5 +55,4 @@ public class Login_StepDefinitions
         String actualMessage = loginPage.error_message.getText();
         Assert.assertEquals(string, actualMessage);
     }
-
 }
